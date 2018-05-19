@@ -1,6 +1,9 @@
 " Syntax highlighting
 syntax on
 
+" Visual indication when 80 characters exceeded
+set cc = 80
+
 " Line numbers
 set number
 

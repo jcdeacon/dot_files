@@ -2,7 +2,7 @@
 syntax on
 
 " Visual indication when 80 characters exceeded
-set cc = 80
+set colorcolumn = 80
 
 " Line numbers
 set number

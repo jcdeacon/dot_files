@@ -1,7 +1,11 @@
 location=$(pwd)
 
-rm ~/.vimrc
-rm ~/.tmux.conf
+if [ -f ~/.vimrc ]; then
+    rm ~/.vimrc
+fi
+if [ -f ~/.tmux.conf ]; then
+    rm ~/.tmux.conf
+fi
 
 cd ~
 

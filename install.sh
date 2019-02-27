@@ -6,4 +6,4 @@ rm ~/.tmux.conf
 cd ~
 
 ln -s "$location"/.vimrc .vimrc
-ln -s "$location".tmux.conf .tmux.conf
+ln -s "$location"/.tmux.conf .tmux.conf
